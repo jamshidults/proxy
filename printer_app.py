@@ -1,12 +1,10 @@
-PRINTER_NAME = 'TVS MSP 270 Series'
+from PRINTER_NAME import PRINTER_NAME
 from flask import Flask
 from flask import jsonify
 from flask import request
 from flask_cors import CORS
-import os
 import win32print
-import win32con
-import win32ui
+
 
 
 app = Flask(__name__)
