@@ -1,2 +1,1 @@
-set FLASK_APP=printer_app.py
-flask run --port=8000
+waitress-serve --port=8000 printer_app:app
