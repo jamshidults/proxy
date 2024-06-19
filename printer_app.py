@@ -1,4 +1,3 @@
-from PRINTER_NAME import PRINTER_NAME
 from flask import Flask
 from flask import jsonify
 from flask import request
